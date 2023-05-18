@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<!-- 
+    	Boxer Template
+    	http://www.templatemo.com/tm-446-boxer
+    	-->
+		<meta charset="utf-8">
+		<title>Solar Energy Production Data Science Project</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content="">
+		<meta name="description" content="">
+
+		<!-- animate css -->
+		<link rel="stylesheet" href="css/animate.min.css">
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- font-awesome -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- google font -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/templatemo-style.css">
+
+	</head>
+	<body>
+		<!-- start preloader -->
+		<div class="preloader">
+			<div class="sk-spinner sk-spinner-rotating-plane"></div>
+    	 </div>
+		<!-- end preloader -->
+		<!-- start navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+						<span class="icon icon-bar"></span>
+					</button>
+					<!-- <a href="#" class="navbar-brand">Boxer</a> -->
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right text-uppercase">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#feature">Features</a></li>
+						<!-- <li><a href="#pricing">Pricing</a></li> -->
+						<li><a href="#download">View Code</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+		<!-- start home -->
+		<section id="home">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-md-10 wow fadeIn" data-wow-delay="0.3s">
+							<h1 class="text-upper">Solar Energy Production Forecasting and Prediction in Calgary, CA</h1>
+							<p class="tm-white">This project applies data science for solar energy production in Calgary Fire Hall Headquarters  by forecasting the trend of kWh output, predict the duration of energy acquisition and estimate the energy saved using daily temperature.</p>
+							<!-- <img src="images/mba4.jpg" class="img-responsive" alt="home img"> -->
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end home -->
+		<!-- start divider -->
+		<section id="divider">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+						<i class="fa fa-cubes"></i>
+						<h3 class="text-uppercase">Seasonal Autoregressive Integrated Moving Average</h3>
+						<p>Autoregressive algorithm that utilized moving average to consider the regular difference of past values in order to predict future observations.</p>
+					</div>
+					<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+						<i class="fa fa-sliders"></i>
+						<h3 class="text-uppercase">Logistic Growth<br>Differential Equation Application</h3>
+						<p>Quantitative approach in predicting energy acquisition duration using growth rate over time. </p>
+					</div>
+					<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+						<i class="fa fa-check-square"></i>
+						<h3 class="text-uppercase">Data preprocessing,<br>visualization, and linear regression</h3>
+						<p>Date time formatting, analysis using visualiztion, A/B hypothesis testing and regression kWh prediction.</p>
+					</div>
+				</div>
+				<!-- <div class="row">
+					<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+						<i class="fa fa-sitemap"></i>
+						<h3 class="text-uppercase">Principal Component Analysis</h3>
+						<p>Implemented dimensionality reduction technique to summarize the large data set increasing interpretability while keeping the significant information.</p>
+					</div>
+					<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+						<i class="fa fa-line-chart"></i>
+						<h3 class="text-uppercase">K-Means Elbow<br>Method</h3>
+						<p>Utilized K-Elbow method and visualization to determine the optimal number of clusters that suits the data sample.</p>
+					</div>
+					<div class="col-md-4 wow fadeInUp templatemo-box" data-wow-delay="0.3s">
+						<i class="fa fa-cogs"></i>
+						<h3 class="text-uppercase">Agglomerative <br>Clustering</h3>
+						<p>Creates the hierarchical segmentation that make use of the variables to set profiles for each clusters.</p>
+					</div>
+				</div> -->
+			</div>
+		</section>
+		<!-- end divider -->
+
+		<!-- start feature -->
+		<section id="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+						<h2 class="text-uppercase">Data Analysis Summary Findings</h2>
+						<p>Exploratory analysis of solar energy production data set which visualizes observations.</p>
+						<p><span><b>Total annual energy output and temperature</b></span></p>
+						<ul>
+							<p><li>2017 was the year with the highest temperature mean which also corresponds to highest total energy output.</li></p> 
+							<li>A drastic decrease in temperature after 2017 and gradually increasing after 2019 onwards. 2023 shows negative temperature as data observed are acquired during winter season.</li>
+						</ul>
+						<p><span><b>Time vs. temperature and energy output</b></span></p>
+						<ul>
+							<p><li>kWh output and temperature are seasonal by increasing in the middle of the year and decreases as it enters and leaves the yearwhich signifies that our kWh output is correlated to temperature with maximum observations acquired during the summer and minimums are in the winter.</li></p>
+						</ul>
+					</div>
+					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+						<img src="images/d2.png" class="img-responsive" alt="feature img">
+						<img src="images/MA.png" class="img-responsive" alt="feature img">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end feature -->
+
+		<!-- start feature1 -->
+		<section id="feature1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+						<!-- <img src="images/kwhauto.png" class="img-responsive" alt="feature img">
+						<img src="images/tempauto.png" class="img-responsive" alt="feature img"> -->
+						<img src="images/forecastkwh.png" class="img-responsive" alt="feature img">
+						<img src="images/temp forecast.png" class="img-responsive" alt="feature img">
+					</div>
+					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+						<h2 class="text-uppercase">SARIMA Forecasting</h2>
+						<p>Autoregressive moving average approach of forecasting the trend of kWh per year. Applied autocorrelation techniques and ADF statistics for time-series stationary data testing.</p>
+						<p><span><b>Actual vs. Forecasted Energy Output</b></span></p>
+						<ul>
+							<p><li>With a <i>standard deviation error of 0.019</i> and a <i>p-value of 0.005</i>, our time-series data is stationery which also shows a good fit for capturing the trend of daily temperature.</li></p>
+							<li>The plot shows an upward trend of kWh output as progresses further into year 2023. 30 day forecast shows an average of 1.5 kWh daily output.</li>
+						</ul>
+						<p><span><b>Actual vs. Forecasted Daily Temperature</b></span></p>
+						<ul>
+							<p><li>With a <i>standard deviation error of 0.018</i> and a <i>p-value of 0.004</i>, our time-series data is stationery which also shows a good fit for capturing the trend of kWh daily output.</li></p>
+							<li>The plot shows an increasing daily temperature coming from a negative value as the months of 2023 progresses. 30 day forecast shows temperature values passing the zero threshold.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end feature1 -->
+
+		<!-- start feature2 -->
+		<section id="feature">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+						<h2 class="text-uppercase">500kWh energy acquisition duration</h2>
+						<p>Assuming we have a solar panel system with a maximum capacity of 500 kWh, we could determine how long would it take to charge this for at least 95% during the months of rise and fall of temperature using logistic growth.</p>
+						<p><span><b>90 days solar energy acquisition kWh output:</b></span></p>
+						<ul>
+							<p><li><i>480kWh</i> output during summer season.</li>
+							<li><i>420kWh</i> output during fall season.</li>
+							<li><i>3500kWh</i> output during spring season.</li>
+							<li><i>Stagnant</i> output during winter season.</li></p>
+						</ul>
+						<p><span><b>Number of days for 500kWh energy acquisition:</b></span></p>
+						<ul>
+							<p><li><i>Approximately 110 days</i> to charge 500kWh of solar energy output during summer.</li>
+							<li><i>Approximately 130 days</i> to charge 500kWh of solar energy output during summer.</li>
+							<li><i>Approximately 150 days</i> to charge 500kWh of solar energy output during summer.</li>
+							<li><i>Stagnant</i> output during winter season.</li></p>
+						</ul>
+					</div>
+					<div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+						<img src="images/Log1.png" class="img-responsive" alt="feature img">
+						<img src="images/log2.png" class="img-responsive" alt="feature img">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end feature2 -->
+
+		<!-- start feature3 -->
+		<section id="feature1">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+						<img src="images/linear.png" class="img-responsive" alt="feature img" vertical-align>
+					</div>
+					<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+						<h2 class="text-uppercase">kWh output prediction</h2>
+						<p>Applying linear regression to predict the kWh output of the solar energy production based on temperature.</p>
+						<p><span><b>Mathematical syntax:</b></span></p>
+						<ul>
+							<p><li>y = 0.1602177x1 + 2.93125503</li></p> 
+						</ul>
+						<p><span>Sample predictions with <i>R-squared score of 47%</i> and <i>Mean absolute error of 1.5</i>:</span></p>
+						<ul>
+							<p><li>At 29 average hourly temperature, we can expect 7.57756845 kWh output.</li>
+							<li>At 13 average hourly temperature, we can expect 5.01408518 kWh output</li>
+							<li>At 6 average hourly temperature, we can expect 3.89256126 kWh output</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end feature3 -->
+
+		<!-- start download -->
+		<section id="download">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.6s">
+						<!-- <h2 class="text-uppercase">Download Our Software</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p> -->
+						<button class="btn btn-primary text-uppercase"><i class="fa fa-github"><a href="#https://github.com/JSBJarv/Solar-Energy-Production-Prediction/blob/main/Solar%20Energy%20Production%20EDA%2C%20Forecasting%20and%20Prediction.ipynb"> View code on Github</i></a></button>
+					</div>
+					<!-- <div class="col-md-6 wow fadeInRight" data-wow-delay="0.6s">
+						<img src="images/software-img.png" class="img-responsive" alt="feature img">
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<!-- end download -->
+
+		<!-- start contact -->
+		<!-- <section id="contact">
+			<div class="overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+							<h2 class="text-uppercase">Contact Us</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation. </p>
+							<address>
+								<p><i class="fa fa-map-marker"></i>36 Street Name, City Name, United States</p>
+								<p><i class="fa fa-phone"></i> 010-010-0110 or 020-020-0220</p>
+								<p><i class="fa fa-envelope-o"></i> info@company.com</p>
+							</address>
+						</div>
+						<div class="col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+							<div class="contact-form">
+								<form action="#" method="post">
+									<div class="col-md-6">
+										<input type="text" class="form-control" placeholder="Name">
+									</div>
+									<div class="col-md-6">
+										<input type="email" class="form-control" placeholder="Email">
+									</div>
+									<div class="col-md-12">
+										<input type="text" class="form-control" placeholder="Subject">
+									</div>
+									<div class="col-md-12">
+										<textarea class="form-control" placeholder="Message" rows="4"></textarea>
+									</div>
+									<div class="col-md-8">
+										<input type="submit" class="form-control text-uppercase" value="Send">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- end contact -->
+
+		<!-- start footer -->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<a href="#https://data.gov.au/home">Data source: data.gov.au</a>
+					<p>Copyright © jsbulacito@gmail.com</p>
+				</div>
+			</div>
+		</footer>
+		<!-- end footer -->
+        
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/jquery.singlePageNav.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
